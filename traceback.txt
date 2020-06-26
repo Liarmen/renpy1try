@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 69, in script
+    $ oneunivers = allunivers[r]
+  File "game/script.rpy", line 69, in <module>
+    $ oneunivers = allunivers[r]
+IndexError: list index out of range
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 69, in script
+    $ oneunivers = allunivers[r]
+  File "E:\renpy-7.3.5-sdk\renpy\ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy-7.3.5-sdk\renpy\python.py", line 2028, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script.rpy", line 69, in <module>
+    $ oneunivers = allunivers[r]
+  File "E:\renpy-7.3.5-sdk\renpy\python.py", line 847, in __getitem__
+    rv = list.__getitem__(self, index)
+IndexError: list index out of range
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+1try 1.1
+Fri Jun 26 21:25:30 2020
